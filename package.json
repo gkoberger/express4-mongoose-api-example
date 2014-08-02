@@ -1,0 +1,29 @@
+{
+  "name": "addresspicker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_PATH=./config:./app/controllers NODE_ENV=development ./node_modules/.bin/nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkoberger/addresspicker"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkoberger/addresspicker/issues"
+  },
+  "homepage": "https://github.com/gkoberger/addresspicker",
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "express": "^4.7.2",
+    "forever": "^0.11.1",
+    "method-override": "^2.1.2",
+    "mongoose": "^3.8.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1"
+  }
+}
